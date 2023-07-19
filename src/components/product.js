@@ -17,7 +17,7 @@ class Product extends React.Component {
           type="button"
           onClick={() => this.props.selectProduct(this.props.product)}
         >
-          Ürün Ekle
+          Add Product
         </button>
             </div>
           </div>

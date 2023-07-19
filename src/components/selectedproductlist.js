@@ -6,7 +6,7 @@ class SelectedProductList extends React.Component {
 
 
 this.props.products.length == 0 ?
-<div className="alert alert-warning">Seçilen ürün yok</div> :
+<div className="alert alert-warning">No products selected</div> :
 
       <ol className="list-group list-group-numbered">
         {this.props.products.map((item, index) => (

@@ -5,7 +5,7 @@ class Header extends React.Component {
       return (
         <nav className="bg-primary p-2 text-white">
   
-          <h3>Seçili Ürünler: {this.props.selectedProducts.length}</h3>
+          <h3>Selected Products: {this.props.selectedProducts.length}</h3>
         </nav>
       );
     }

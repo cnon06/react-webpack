@@ -25,15 +25,7 @@ class App extends React.Component {
         },
       ],
       selectedProducts: [
-        // {
-        //   count: 3,
-        // product: 
-        // {
-        //   name: "IPhone 18",
-        //   price: 40,
-        //   image: "3.jpg"
-        // }
-        // },
+        
       ],
     };
   }
@@ -44,7 +36,7 @@ componentDidMount()
 const products = JSON.parse(localStorage.getItem("selectedProducts"));
 if(products)
 {
-  // console.log(products+"yyhg876");
+
   this.setState({
     selectedProducts: products,
   })

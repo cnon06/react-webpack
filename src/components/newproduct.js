@@ -36,7 +36,7 @@ class NewProduct extends React.Component {
           </div>
 
           
-          <button type="submit" className="btn btn-primary">Ürün Ekle</button>
+          <button type="submit" className="btn btn-primary">Add Product</button>
          
           
          
